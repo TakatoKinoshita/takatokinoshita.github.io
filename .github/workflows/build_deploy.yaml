@@ -20,6 +20,9 @@ jobs:
       - name: Install deps
         run: pip install -r requirements.txt
 
+      - name: Build html
+        run: python main.py
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
