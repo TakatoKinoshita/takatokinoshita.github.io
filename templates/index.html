@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{%- with keywords = keywords.en, self_name = self_name.en, include_analytics = True -%}
+    {%- include 'header_meta.html' -%}
+{%- endwith -%}
+
+<body>
+{%- with
+    self_name = self_name.en,
+    switch = nav_switch.en -%}
+    {%- include 'header_nav.html' -%}
+{%- endwith -%}
+
+{%- with
+    bio_image = profile.bio_image,
+    self_name = self_name.en,
+    degree = profile.degree,
+    role = profile.role.en,
+    e_mail = profile.e_mail,
+    links = profile.links -%}
+    {%- include 'top_profile_en.html' -%}
+{%- endwith -%}
+
+{%- with news_list = new_info.en -%}
+    {%- include 'new_info.html' -%}
+{%- endwith -%}
+
+{%- include 'bio_en.html' -%}
+
+{%- include 'publications.html' -%}
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

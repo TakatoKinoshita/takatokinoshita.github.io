@@ -1,0 +1,35 @@
+{%- include "insert_author_en.html" -%}
+
+{{ "\"" }}
+{%- include "insert_title.html" -%}
+{{ ",\" " }}
+
+{%- if entry.status == 'Published' or entry.status == 'Accepted' -%}
+    <i>{{ entry.journal }}</i>{{ ", " }}
+{%- endif -%}
+
+{%- if entry.status == 'Published' -%}
+    {%- with info = entry.vol|default(None), prefix = "vol. ", postfix = None -%}
+        {%- include "insert_info.html" -%}
+    {%- endwith -%}
+
+    {%- with info = entry.number|default(None), prefix = "no. ", postfix = None -%}
+        {%- include "insert_info.html" -%}
+    {%- endwith -%}
+
+    {%- with info = entry.pages|default(None), prefix = "#", postfix = None -%}
+        {%- include "insert_info.html" -%}
+    {%- endwith -%}
+{%- endif -%}
+
+{%- if entry.month is defined -%}
+{{ entry.month|month_name }}{{ ' ' }}
+{%- endif -%}
+{{ entry.year }}
+
+{%- if entry.status != 'Published' -%}
+    {{ ", " }}<i>{{ entry.status }}</i>
+{%- endif -%}
+{{ "." }}
+
+{%- include "insert_tails.html" -%}

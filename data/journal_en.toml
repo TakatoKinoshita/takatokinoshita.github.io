@@ -1,0 +1,11 @@
+[[journal_en]]
+type = "article"
+link = "https://ieeexplore.ieee.org/document/10314513"
+status = "Published"
+author = ["T. Kinoshita", "N. Masuyama", "Y. Liu", "Y. Nojima", "H. Ishibuchi"]
+title = "Reference vector adaptation and mating selection strategy via adaptive resonance theory-based clustering for many-objective optimization"
+journal = "IEEE Access"
+year = 2023
+volume = 11
+pages = "pp. 126066-126086"
+month = 11

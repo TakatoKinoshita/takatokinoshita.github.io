@@ -1,0 +1,28 @@
+{%- include "insert_author_ja.html" -%}
+
+{%- include "insert_title.html" -%}
+
+{{ ", " }}{{ entry.booktitle }}{{ ", " }}
+
+{%- with info = entry.vol|default(None), prefix = "vol. ", postfix = None -%}
+    {%- include "insert_info.html" -%}
+{%- endwith -%}
+
+{%- with info = entry.number|default(None), prefix = "no. ", postfix = None -%}
+    {%- include "insert_info.html" -%}
+{%- endwith -%}
+
+{%- with info = entry.pages|default(None), prefix = "#", postfix = None -%}
+    {%- include "insert_info.html" -%}
+{%- endwith -%}
+
+{%- if entry.address is defined -%}
+    {{ entry.address }}{{ ", " }}
+{%- endif -%}
+
+{%- if entry.month is defined -%}
+    {{ entry.month }}{{ '月, ' }}
+{%- endif -%}
+{{ "(" }}{{ entry.year }}{{ ")." }}
+
+{%- include "insert_tails.html" -%}

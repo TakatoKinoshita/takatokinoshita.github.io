@@ -1,0 +1,24 @@
+[self_name]
+en = "Takato Kinoshita"
+ja = "木下　貴登"
+
+[keywords]
+en = ["clustering", "machine learning", "pattern classification", "neural networks", "adaptive resonance theory", "continual learning", "continuous learning", "self-organizing map", "growing neural gas"]
+ja = ["クラスタリング", "機械学習", "パターン識別", "ニューラルネットワーク", "適応共鳴理論", "継続学習", "自己組織化", "ニューラルガス"]
+
+[profile]
+bio_image = "images/bio_kinoshita.jpg"
+degree = "M.E."
+e_mail = "takato (at) ieee.org"
+
+[profile.role]
+en = "Student"
+ja = "学生"
+
+[[profile.links]]
+url = "https://github.com/TakatoKinoshita"
+text = "GitHub"
+
+[[profile.links]]
+url = "https://scholar.google.com/citations?hl=en&user=g5mWSIUAAAAJ"
+text = "Google Scholar"

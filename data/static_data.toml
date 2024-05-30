@@ -1,0 +1,7 @@
+[nav_switch.en]
+page = "index_ja.html"
+text = "Japanese"
+
+[nav_switch.ja]
+page = "index.html"
+text = "English"

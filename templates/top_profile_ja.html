@@ -1,0 +1,32 @@
+<a name="Top"></a>
+<div style="padding:20px 0"></div>
+
+<div class="container" style="padding:20px 0">
+    <div class="row+">
+        <div class="col-sm-3">
+            <br><br>
+            <img src="{{ bio_image }}" width="160" align=center class="img-responsive">
+            <br>
+            <br>
+        </div>
+        <div class="col-sm-9">
+            <h3>{{ self_name }}</h3>
+            <p>{{ role }}</p>
+            <!--<p>平成29年度 文部科学省 卓越研究員</p>-->
+            <p><a href="https://ci-labo-omu.github.io" target="blank"><b>計算知能研究室</b></a><br>
+                <a href="https://www.omu.ac.jp" target="blank">大阪公立大学</a>
+                <a href="https://www.omu.ac.jp/i/" target="blank">大学院情報学研究科</a> <br>
+                <a href="https://www.omu.ac.jp/i/dci/" target="blank">基幹情報学専攻</a> <br>
+                知能情報学分野
+            </p>
+            <p>E-mail: {{ e_mail }}<br>
+                599-8531 大阪府堺市中区学園町1-1<br>
+                Phone: 072-254-9198
+                FAX: 072-254-9825</p>
+            <hr>
+            {%- for link in links -%}
+                <a href="{{ link.url }}" target="_blank">{{ link.text }}</a><br>
+            {%- endfor -%}
+        </div>
+    </div>
+</div>

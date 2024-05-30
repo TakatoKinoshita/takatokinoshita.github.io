@@ -1,0 +1,87 @@
+[[conference_ja]]
+status = "Published"
+author = ["木下貴登", "増山直輝", "能島裕介"]
+title = "実世界多目的最適化問題のためのRiesz discrete s-Energy によるConvergence-Diversity Diagramの拡張"
+booktitle = "第24回進化計算研究会講演論文集"
+year = 2023
+pages = "pp. 49-56"
+address = "福知山"
+month = 9
+
+[[conference_ja]]
+status = "Published"
+author = ["木下貴登", "増山直輝", "能島裕介"]
+title = "制約付き問題のための適応的問題分割ベース進化型多目的最適化アルゴリズムの検討"
+booktitle = "第39回ファジィシステムシンポジウム講演論文集"
+year = 2023
+address = "軽井沢"
+month = 9
+
+[[conference_ja]]
+type = "inproceedings"
+status = "Published"
+author = ["木下貴登", "増山直輝", "能島裕介", "石渕久生"]
+title = "Convergence-Diversity Diagramのためのパレート最適近似手法の検討"
+booktitle = "第16回進化計算シンポジウム2022講演論文集"
+year = 2022
+pages = "pp. 185-192"
+address = "札幌"
+month = 12
+
+[[conference_ja]]
+lang = "ja"
+type = "inproceedings"
+status = "Published"
+author = ["木下貴登", "増山直輝", "能島裕介"]
+title = "Convergence-Diversity Diagramの探索過程分析への拡張"
+booktitle = "第22回進化計算学会研究会講演論文集"
+year = 2022
+pages = "pp. 14-19"
+address = "東京＋オンライン"
+month = 9
+
+[[conference_ja]]
+lang = "ja"
+type = "inproceedings"
+status = "Published"
+author = ["中川夢斗", "木下貴登", "増山直輝", "能島裕介", "石渕久生"]
+title = "社会シミュレーションによる経済支援施策の進化型最適設計"
+booktitle = "第38回ファジィシステムシンポジウム講演論文集"
+year = 2022
+address = "オンライン"
+month = 9
+
+[[conference_ja]]
+lang = "ja"
+type = "inproceedings"
+status = "Published"
+author = ["木下貴登", "増山直輝", "能島裕介", "石渕久生"]
+title = "進化型多目的最適化アルゴリズムの分割的性能評価"
+booktitle = "第15回進化計算シンポジウム2021講演論文集"
+year = 2021
+pages = "pp. 328-335"
+address = "オンライン"
+month = 12
+
+[[conference_ja]]
+lang = "ja"
+type = "inproceedings"
+status = "Published"
+author = ["木下貴登", "増山直輝", "能島裕介", "石渕久生"]
+title = "適応共鳴理論に基づくクラスタリングを用いた進化型多目的最適化アルゴリズム"
+booktitle = "第20回進化計算学会研究会講演論文集"
+year = 2021
+address = "オンライン"
+month = 9
+
+[[conference_ja]]
+lang = "ja"
+type = "inproceedings"
+status = "Published"
+author = ["木下貴登", "増山直輝", "能島裕介", "石渕久生"]
+title = "クラスタリング手法を用いた適応的分割に基づく進化型多目的最適化アルゴリズムの性能評価"
+booktitle = "第14回進化計算シンポジウム2020講演論文集"
+year = 2020
+pages = "pp. 151-159"
+address = "岐阜"
+month = 12

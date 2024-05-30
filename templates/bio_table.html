@@ -1,0 +1,12 @@
+<div style="padding-left: 2em;">
+    <table border="0">
+        {%- for entry in entries -%}
+        <tr>
+            <td nowrap valign="top">{{ entry.period }}</td>
+            <td nowrap valign="top">：</td>
+            <td>{{ entry.text }}</td>
+        </tr>
+        {%- endfor -%}
+    </table>
+</div>
+<br>

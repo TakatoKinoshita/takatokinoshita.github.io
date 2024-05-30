@@ -1,0 +1,49 @@
+[[edu.en]]
+date = 2017-04-01
+period = "April 2017 – March 2021"
+text = "Computer Science Cource, College of Engineering, Osaka Prefecture University, Osaka, Japan."
+
+[[edu.en]]
+date = 2021-04-01
+period = "April 2021 – March 2023"
+text = '''
+Department of Computer Science and Intelligent Systems, Graduate School of Engineering,
+Osaka Prefecture University, Osaka, Japan.<br>
+(Advisor: Prof. Dr. <a href="https://yusuke-nojima.github.io/index.html" target="_blank">Yusuke Nojima</a>)'''
+
+[[edu.en]]
+date = 2023-04-01
+period = "April 2023 - Now"
+text = '''
+Depertment of Core Infomatics, Graduate School of Infomatics, Osaka Metropolitan University, Osaka, Japan.<br>
+(Advisor: Prof. Dr. <a href="https://yusuke-nojima.github.io/index.html" target="_blank">Yusuke Nojima</a>)'''
+
+[[edu.ja]]
+date = 2017-04-01
+period = "2017年4月"
+text = "大阪府立大学 工学域 電気電子系学類　入学"
+
+[[edu.ja]]
+date = 2021-03-31
+period = "2017年3月"
+text = "同上　卒業"
+
+[[edu.ja]]
+date = 2021-04-01
+period = "2021年4月"
+text = "大阪府立大学大学院 工学研究科 電気・情報系専攻 知能情報工学分野 博士前期課程　入学"
+
+[[edu.ja]]
+date = 2023-03-31
+period = "2023年3月"
+text = '同上　修了 (指導教員：<a href="https://yusuke-nojima.github.io/index.html" target="_blank">能島 裕介</a> 教授)'
+
+[[edu.ja]]
+date = 2023-04-01
+period = "2023年4月"
+text = "大阪公立大学大学院 情報学研究科 基幹情報学専攻 知能情報工学分野 博士後期課程　入学"
+
+[[edu.ja]]
+date = 2025-03-31
+period = "現在"
+text = '同上　在学中 (指導教員：<a href="https://yusuke-nojima.github.io/index.html" target="_blank">能島 裕介</a> 教授)'

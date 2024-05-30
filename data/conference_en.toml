@@ -1,0 +1,35 @@
+[[conference_en]]
+status = "Published"
+short_name = "ISIS"
+period = "December 6-9"
+author = ["T. Kinoshita", "N. Masuyama", "Y. Nojima"]
+title = "Riesz s-energy indicators for diversity assessment of multiobjective evolutionary algorithms"
+booktitle = "Proc. of the 24th International Symposium on Advanced Intelligent Systems"
+year = 2023
+pages = 7
+address = "Gwangju, Korea"
+
+[[conference_en]]
+status = "Published"
+short_name = "SCIS&ISIS2022"
+period = "November 29 - December 2"
+note = "IEEE CIS Japan Chapter Young Researcher Award"
+author = ["T. Kinoshita", "N. Masuyama", "Y. Nojima"]
+title = "Search process analysis of multiobjective evolutionary algorithms using convergence-diversity diagram"
+booktitle = "Proc. of 2022 Joint 12th International Conference on Soft Computing and Intelligent Systems and 23rd International Symposium on Advanced Intelligent Systems"
+year = 2022
+pages = 6
+address = "Mie, Japan"
+
+[[conference_en]]
+lang = "en"
+type = "inproceedings"
+status = "Published"
+short_name = "MIC 2022"
+period = "July 11-14"
+author = ["T. Kinoshita", "N. Masuyama", "Y. Nojima", "H. Ishibuchi"]
+title = "Analytical methods to separately evaluate convergence and diversity for multi-objective optimization"
+booktitle = "Proc. of 14th International Conference of Metaheuristics"
+year = 2022
+pages = "pp. 172-186"
+address = "Syracuse, Italy"

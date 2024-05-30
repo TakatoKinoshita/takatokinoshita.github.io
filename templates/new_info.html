@@ -1,0 +1,13 @@
+<a name="NewInfo"></a>
+<div class="container" style="padding:20px 0">
+    <button class="btn btn-primary">New Info</button>
+    <br><br>
+    <ul>
+        {%- for news in news_list|selectattr('is_show')|sort(attribute='date', reverse=True) -%}
+            <li>
+                {{ news.text }}
+            </li>
+            <p></p>
+        {%- endfor -%}
+    </ul>
+</div>

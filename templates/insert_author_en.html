@@ -1,0 +1,17 @@
+{%- if entry.author|length == 1 -%}
+    <u>{{ entry.author|first }}</u>{{ ", " }}
+{%- else -%}
+    {%- for auth in entry.author -%}
+        {%- if loop.last -%}
+            {{ "and " }}
+        {%- endif -%}
+
+        {%- if auth == self_name -%}
+            <u>{{ auth }}</u>
+        {%- else -%}
+            {{ auth }}
+        {%- endif -%}
+
+        {{ ", " }}
+    {%- endfor -%}
+{%- endif -%}

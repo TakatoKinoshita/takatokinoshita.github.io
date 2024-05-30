@@ -1,0 +1,8 @@
+{%- for auth in entry.author -%}
+    {%- if auth == self_name -%}
+        <u>{{ auth }}</u>
+    {%- else -%}
+        {{ auth }}
+    {%- endif -%}
+    {{ ", " }}
+{%- endfor -%}

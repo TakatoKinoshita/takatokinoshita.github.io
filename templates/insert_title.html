@@ -1,0 +1,5 @@
+{%- if entry.link is defined -%}
+    <a href="{{ entry.link }}" target="_blank">{{ entry.title }}</a>
+{%- else -%}
+    {{ entry.title }}
+{%- endif -%}

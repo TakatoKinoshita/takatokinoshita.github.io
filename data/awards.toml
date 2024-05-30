@@ -1,0 +1,22 @@
+[[awards]]
+lang = "ja"
+date = 2021-12-25
+title = "進化計算コンペティション2021 多目的部門　トップ賞"
+text = "チームnakagawa：中川夢斗，木下貴登，増山直輝，能島裕介．"
+
+[[awards]]
+lang = "en"
+date = 2022-11-29
+title = "IEEE CIS Japan Chapter Young Researcher Award"
+text = """
+T. Kinoshita, N. Masuyama, and Y. Nojima,
+"Search process analysis of multiobjective evolutionary algorithms using convergence-diversity diagram,"
+in Proc. of 2022 Joint 12th International Conference on Soft Computing and Intelligent Systems
+and 23rd International Symposium on Advanced Intelligent Systems (SCIS&ISIS2022),
+6 pages, Mie, Japan, November 29 - December 2, 2022. """
+
+[[awards]]
+lang = "ja"
+date = 2023-03-01
+title = "大阪公立大学 2022 年度 後期 学長表彰"
+text = "木下貴登, 3月, 2023"

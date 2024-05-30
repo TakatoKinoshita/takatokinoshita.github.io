@@ -1,0 +1,7 @@
+{%- if entry.asset is defined -%}
+    {{ " " }}<a href="{{ entry.asset.link }}" target="_blank">{{ entry.asset.text }}</a>
+{%- endif -%}
+
+{%- if entry.note is defined -%}
+    {{ " " }}<b><font color="#FF0000">{{ entry.note }}</font></b>
+{%- endif -%}

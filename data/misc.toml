@@ -1,0 +1,7 @@
+short_bio = """
+I graduated from Osaka Prefecture University, Osaka, Japan in 2021,
+and I received the M.E. degree from Osaka Prefecture University, Osaka, Japan in 2023."""
+
+[paper_self_name]
+en = "T. Kinoshita"
+ja = "木下貴登"

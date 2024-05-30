@@ -1,0 +1,75 @@
+<a name="Publications"></a>
+
+{%- with is_head = True -%}
+    {%- include "pub_nav.html" -%}
+{%- endwith -%}
+
+<div class="container" style="padding: 0px 0">
+    <div style="padding-left: 2em;">
+
+        <b>Journal Papers</b><br><br>
+        {%- if journal_en is defined -%}
+            (in English)
+            {%- with entries = journal_en, self_name = paper_self_name -%}
+                {%- include "pub_list.html" -%}
+            {%- endwith -%}
+        {%- endif -%}
+
+        {%- if journal_ja is defined -%}
+            (in Japanese)
+            {%- with entries = journal_ja, self_name = paper_self_name -%}
+                {%- include "pub_list.html" -%}
+            {%- endwith -%}
+        {%- endif -%}
+
+        <a name="Conferences"></a>
+    </div>
+
+    <br>
+    <p></p>
+
+    {%- with is_head = False -%}
+        {%- include "pub_nav.html" -%}
+    {%- endwith -%}
+
+
+    <div style="padding-left: 2em;">
+
+        <b>Conference Papers</b>
+        {%- if conference_en is defined -%}
+            {%- with entries = conference_en, self_name = paper_self_name -%}
+                {%- include "pub_list.html" -%}
+            {%- endwith -%}
+        {%- endif -%}
+
+        <a name="Domestic"></a>
+
+    </div>
+
+    <br>
+
+
+    <a name="Publications"></a>
+    {%- with is_head = False -%}
+        {%- include "pub_nav.html" -%}
+    {%- endwith -%}
+
+
+    <div style="padding-left: 2em;">
+        <b>Others</b>
+        {%- set others = conference_ja|default([]) + other_papers|default([]) -%}
+        {%- if others|length > 0 -%}
+            {%- with entries = others, self_name = paper_self_name -%}
+                {%- include "pub_list.html" -%}
+            {%- endwith -%}
+        {%- endif -%}
+    </div>
+
+    <a name="Publications"></a>
+    {%- with is_head = False -%}
+        {%- include "pub_nav.html" -%}
+    {%- endwith -%}
+</div>
+
+<br>
+<br>

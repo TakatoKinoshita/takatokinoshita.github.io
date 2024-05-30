@@ -1,0 +1,35 @@
+<ol>
+    {%- for year in entries|map(attribute='year')|unique|sort(reverse=True) -%}
+        <br>
+        <center><b><font color="blue">{{ year }}</font></b></center>
+        {%- for entry in entries if entry.year == year -%}
+            <li>
+                {%- if entry.lang == 'en' -%}
+
+                    {%- if entry.type == 'article' -%}
+                        {%- with entry = entry, self_name = self_name.en -%}
+                            {%- include "journal_en.html" -%}
+                        {%- endwith -%}
+                    {%- else -%}
+                        {%- with entry = entry, self_name = self_name.en -%}
+                            {%- include "conference_en.html" -%}
+                        {%- endwith -%}
+                    {%- endif -%}
+
+                {%- else -%}
+
+                    {%- if entry.type == 'article' -%}
+                        {%- with entry = entry, self_name = self_name.ja -%}
+                            {%- include "journal_ja.html" -%}
+                        {%- endwith -%}
+                    {%- else -%}
+                        {%- with entry = entry, self_name = self_name.ja -%}
+                            {%- include "conference_ja.html" -%}
+                        {%- endwith -%}
+                    {%- endif -%}
+
+                {%- endif -%}
+            </li>
+        {%- endfor -%}
+    {%- endfor -%}
+</ol>

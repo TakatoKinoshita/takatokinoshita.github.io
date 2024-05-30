@@ -1,0 +1,34 @@
+{%- include "insert_author_en.html" -%}
+
+{{ "\"" }}
+{%- include "insert_title.html" -%}
+{{ ",\" in " }}<i>{{ entry.booktitle }}</i>
+{%- if entry.short_name is defined -%}
+    {{ " (" }}{{ entry.short_name }}{{ ")" }}
+{%- endif -%}
+{{ ", " }}
+
+{%- with info = entry.vol|default(None), prefix = "vol. ", postfix = None -%}
+    {%- include "insert_info.html" -%}
+{%- endwith -%}
+
+{%- with info = entry.number|default(None), prefix = "no. ", postfix = None -%}
+    {%- include "insert_info.html" -%}
+{%- endwith -%}
+
+{%- with info = entry.pages|default(None), prefix = None, postfix = " pages" -%}
+    {%- include "insert_info.html" -%}
+{%- endwith -%}
+
+{%- if entry.address is defined -%}
+    {{ entry.address }}{{ ", " }}
+{%- endif -%}
+
+{%- if entry.period is defined -%}
+    {{ entry.period }}{{ ", " }}
+{%- elif entry.month is defined -%}
+    {{ entry.month|month_name }}{{ ", " }}
+{%- endif -%}
+{{ entry.year }}{{ "." }}
+
+{%- include "insert_tails.html" -%}

@@ -1,0 +1,24 @@
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".target">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#Top"><b>
+                    <font color="blue">{{ self_name }}</font>
+                </b></a>
+        </div>
+
+        <div class="collapse navbar-collapse target">
+            <ul class="nav navbar-nav">
+                <li><a href="#NewInfo">New Info</a></li>
+                <li><a href="#Biography">Biography</a></li>
+                <li><a href="#Publications">Publications</a></li>
+                <!--<li><a href="#Activities">Activities</a></li>-->
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="{{ switch.page }}">{{ switch.text }} &emsp;&emsp;&emsp;&emsp;&emsp;</a></li>
+            </ul>
+        </div>
+    </nav>

@@ -1,0 +1,31 @@
+    <a name="Top"></a>
+    <div style="padding:20px 0"></div>
+
+    <div class="container" style="padding:20px 0">
+        <div class="row+">
+            <div class="col-sm-3">
+                <br><br>
+                <img src="{{ bio_image }}" width="160" align=center class="img-responsive">
+                <br>
+                <br>
+            </div>
+            <div class="col-sm-9">
+                <h3>{{ self_name }}, <font size="4.5">{{ degree }}</font>
+                </h3>
+                <p>{{ role }}</p>
+                <p><a href="https://ci-labo-omu.github.io" target="blank"><b>Computational Intelligence Laboratory</b></a><br>
+                    Intelligent Informatics<br>
+                    <a href="https://www.omu.ac.jp/i/en/dci/" target="blank">Department of Core Informatics</a><br>
+                    <a href="https://www.omu.ac.jp/i/en/" target="blank">Graduate School of Informatics</a><br>
+                    <a href="https://www.omu.ac.jp/en/" target="blank">Osaka Metropolitan University</a></p><br>
+                <p>E-mail: {{ e_mail }}<br>
+                    Address: 1-1 Gakuen-cho, Sakai, Osaka 599-8531, Japan<br>
+                    Phone: +81-72-254-9198<br>
+                    FAX: +81-72-254-9825</p>
+                <hr>
+                {%- for link in links -%}
+                <a href="{{ link.url }}" target="_blank">{{ link.text }}</a><br>
+                {%- endfor -%}
+            </div>
+        </div>
+    </div>

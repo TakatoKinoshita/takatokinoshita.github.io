@@ -1,0 +1,41 @@
+<a name="Biography"></a>
+
+
+<div class="container" style="padding:20px 0">
+    <button class="btn btn-primary">Biography</button>
+    <br>
+    <div class="container" style="padding:8px 0"></div>
+    <ul class="breadcrumb">
+        <li class="active"><a href="#Biography">Short Bio</a></li>
+        <li class="active"><a href="#Awards">Awards</a></li>
+        <li class="active"><a href="#Grant">Grant and Fund</a></li>
+    </ul>
+    <div style="padding-left: 2em;">
+        {{ short_bio }}
+        <br>
+
+
+        <b>Education</b>
+        {%- with entries = edu.en|sort(attribute='date', reverse=True) -%}
+            {%- include "bio_table.html" -%}
+        {%- endwith -%}
+
+
+        <b>Professional</b>
+        {%- with entries = pro|sort(attribute='date', reverse=True)|map(attribute='en') -%}
+            {%- include "bio_table.html" -%}
+        {%- endwith -%}
+
+
+        <b>Awards</b>
+        {%- with entries = awards|selectattr('lang', '==', 'en')|sort(attribute='date', reverse=True) -%}
+            {%- include "awards.html" -%}
+        {%- endwith -%}
+
+
+        <b>Grant and Fund</b>
+        {%- with entries = grants|rejectattr('lang', '==', 'ja')|sort(attribute='date', reverse=True) -%}
+            {%- include "grants.html" -%}
+        {%- endwith -%}
+    </div>
+</div>

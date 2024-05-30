@@ -1,0 +1,45 @@
+[[new_info.en]]
+text = '''
+We will have oral presentations at <a href="https://www.ants-lab.it/mic2022/" target="_blank">
+14<sup>th</sup> Metaheuristics International Conference (MIC 2022)</a>. <br>
+T. Kinoshita, N. Masuyama, Y. Nojima, and H. Ishibuchi,
+"Analytical methods to separately evaluate convergence and diversity for multi-objective optimization"'''
+is_show = false
+date = 2022-07-11
+
+[[new_info.en]]
+text = '''
+I receieved IEEE CIS Japan Chapter Young Researcher Award at
+ <a href="http://soft-cr.org/scis/2022/" target="_blank">
+2022 Joint 12th International Conference on Soft Computing and Intelligent Systems
+and 23rd International Symposium on Advanced Intelligent Systems (SCIS&ISIS2022)</a>.<br>
+T. Kinoshita, N. Masuyama, and Y. Nojima,
+"Search process analysis of multiobjective evolutionary algorithms using convergence-diversity diagram"'''
+is_show = true
+date = 2022-11-29
+
+[[new_info.en]]
+text = '''
+We will have oral presentations at <a href="https://2024.ieeewcci.org/" target="_blank">
+The IEEE World Congress on Computational Intelligence (IEEE WCCI 2024)</a>. <br>
+T. Kinoshita, N. Masuyama, and Y. Nojima,
+"A federated data-driven multiobjective evolutionary algorithm via continual learnable clustering"'''
+is_show = false
+date = 2024-07-30
+
+[[new_info.ja]]
+text = '''
+IEEE CIS Japan Chapter Young Researcher Award を受賞しました！<br>
+ <a href="http://soft-cr.org/scis/2022/" target="_blank">
+2022 Joint 12th International Conference on Soft Computing and Intelligent Systems
+and 23rd International Symposium on Advanced Intelligent Systems (SCIS&ISIS2022)</a><br>
+T. Kinoshita, N. Masuyama, and Y. Nojima,
+"Search process analysis of multiobjective evolutionary algorithms using convergence-diversity diagram"'''
+is_show = true
+date = 2022-11-29
+
+[[new_info.ja]]
+text = """
+大阪公立大学 2022 年度 後期 学長表彰を受賞しました！"""
+is_show = true
+date = 2023-03-01

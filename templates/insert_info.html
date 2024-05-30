@@ -1,0 +1,8 @@
+{%- if info is not none -%}
+    {%- if info is integer -%}
+        {{ prefix if prefix }}{{ info }}{{ postfix if postfix }}
+    {%- else -%}
+        {{ info }}
+    {%- endif -%}
+    {{ ", " }}
+{%- endif -%}
