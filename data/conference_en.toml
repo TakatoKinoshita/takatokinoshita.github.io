@@ -1,4 +1,23 @@
 [[conference_en]]
+status = "Accepted"
+short_name = "IJCNN"
+author = ["N. Masuyama", "R. Fujii", "T. Kinoshita", "Y. Nojima"]
+title = "A clustering-based sample selection method for improving replay buffer quality in continual self-supervised learning"
+booktitle = "Proc. of the 2025 International Joint Conference on Neural Networks"
+year = 2025
+
+[[conference_en]]
+status = "Published"
+short_name = "CEC"
+period = "June 30-July 5"
+author = ["T. Kinoshita", "N. Masuyama", "Y. Nojima"]
+title = "A federated data-driven multiobjective evolutionary algorithm via continual learnable clustering"
+booktitle = "Proc. of 2024 IEEE Congress on Evolutionary Computation"
+year = 2024
+pages = "pp. 1-7"
+address = "Yokohama, Japan"
+
+[[conference_en]]
 status = "Published"
 short_name = "ISIS"
 period = "December 6-9"

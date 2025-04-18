@@ -1,6 +1,25 @@
 [[conference_ja]]
 status = "Published"
 author = ["木下貴登", "増山直輝", "能島裕介"]
+title = "異なる目的を持つ複数のクライアントに対する連合データ駆動多目的最適化アルゴリズムの検討"
+booktitle = "第18回進化計算シンポジウム2024講演論文集"
+year = 2024
+pages = "pp. 133-136"
+address = "白浜"
+month = 12
+
+[[conference_ja]]
+status = "Published"
+author = ["木下貴登", "増山直輝", "能島裕介"]
+title = "ε-局所差分プライバシを用いた連合サロゲート進化型多目的最適化フレームワークの検討"
+booktitle = "第17回進化計算シンポジウム2023講演論文集"
+year = 2023
+address = "小田原"
+month = 12
+
+[[conference_ja]]
+status = "Published"
+author = ["木下貴登", "増山直輝", "能島裕介"]
 title = "実世界多目的最適化問題のためのRiesz discrete s-Energy によるConvergence-Diversity Diagramの拡張"
 booktitle = "第24回進化計算研究会講演論文集"
 year = 2023
